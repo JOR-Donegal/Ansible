@@ -1,6 +1,6 @@
-# Build
+# Test Environment
 
-I will be doing these exercises in VMWare Workstation on a local computer. If you are working in Azure labs, just read and follow along.
+I will be doing these exercises in VMWare Workstation on a local computer.&#x20;
 
 I am building this on a Dell laptop from 2017, with VMWare Workstation 17.5.0. These exercises will work in any environment where you can run multiple Linux instances.
 
@@ -49,7 +49,7 @@ network:
 
 On AnsibleManager, set the static IPv4 address via the GUI.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Do a ping test from device to device using their IPv4 addresses..
 
@@ -59,6 +59,6 @@ I also use RDP to console into the AnsibleManager and change its name. Note that
 
 On all three nodes, I edit **/etc/hosts** so they can find each other, this saves us setting up a DNS. This example is from AnsibleManager
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Do a ping test from device to device using their names.
